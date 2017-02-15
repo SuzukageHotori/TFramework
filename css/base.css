@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: "Consolas";
+}
+.bgBlack{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.bgBlue{
+	background-color: #0000FF;
+}
+.bdWhite{
+	border: 2px dashed #FFFFFF;
+	box-sizing: border-box;
+}
+.bdGreen{
+	border: 2px dashed #00ff00;
+	box-sizing: border-box;
+}
+.bdRed{
+	border: 2px dashed #FF0000;
+	box-sizing: border-box;
+}
+.bdBlue{
+	border: 2px dashed #0000FF;
+	box-sizing: border-box;
+}
+.bdSoild{
+	border-style: solid;
+}
+.w800{
+	width: 800px;
+}
+.w400{
+	width: 400px;
+}
+.h600{
+	height: 600px;
+}
+
+.m10{
+	margin:10px;
+}
+
+
+
+/*button*/
+input[type=button].green{
+	width: 80px;
+	height: 30px;
+	background-color: #00FF00;
+	border: 0;
+	line-height: 30px;
+}
+input[type=button].red{
+	width: 80px;
+	height: 30px;
+	background-color: #FF0000;
+	border: 0;
+	line-height: 30px;
+}
+input[type=button].blue{
+	width: 80px;
+	height: 30px;
+	background-color: #0000FF;
+	border: 0;
+	line-height: 30px;
+}
+/*button end*/
+
+/*table*/
+table th,td{
+	line-height: 25px;
+}
+table.noborder{
+	border:0;
+}
+
+table.white{
+	border-collapse: collapse;
+}
+
+table.white th,td{
+	border: 2px dashed #FFFFFF;
+	box-sizing: border-box;
+}
+/*table end*/
