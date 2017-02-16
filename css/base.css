@@ -30,6 +30,9 @@
 .bdSoild{
 	border-style: solid;
 }
+.bdr7{
+	border-radius: 7px;
+}
 .w800{
 	width: 800px;
 }
@@ -39,12 +42,27 @@
 .h600{
 	height: 600px;
 }
-
+.h300{
+	height: 300px;
+}
+.mt100{
+	margin-top:100px;
+}
 .m10{
 	margin:10px;
 }
 
+.f28{
+	font-size: 28px;
+}
 
+.fwb{
+	font-weight: bold;
+}
+
+.tac{
+	text-align: center;
+}
 
 /*button*/
 input[type=button].green{
@@ -69,7 +87,9 @@ input[type=button].blue{
 	line-height: 30px;
 }
 /*button end*/
+/*input*/
 
+/*input end*/
 /*table*/
 table th,td{
 	line-height: 25px;
